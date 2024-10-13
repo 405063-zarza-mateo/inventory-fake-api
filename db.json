@@ -1,3 +1,15 @@
-[{"id":1, "productName": "abono", "currentStock": 1, "minStock": 5 },
-{"id":2, "productName":"semillas", "currentStock":5, "minStock":15}
-]
+{
+  "inventory": [
+    { "id": 1, "productName": "abono", "currentStock": 1, "minStock": 5 },
+    { "id": 2, "productName": "semillas", "currentStock": 5, "minStock": 15 }
+  ],
+  "access": [
+    { "id": 1, "userId": 5, "guestName": "Marcos" },
+    { "id": 2, "userId": 17, "guestName": "Julian" }
+  ],
+  "payment": {
+    "status": "vencido",
+    "dateFrom": "2024-03-12",
+    "dateTo": "2024-04-12"
+  }
+}
