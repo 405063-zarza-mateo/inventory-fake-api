@@ -1,1 +1,3 @@
-{ "productName": "abono", "currentStock": 1, "minStock": 5 }
+[{"id":1, "productName": "abono", "currentStock": 1, "minStock": 5 },
+{"id":2, "productName":"semillas", "currentStock":5, "minStock":15}
+]
